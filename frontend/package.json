@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jwt-decode": "^2.2.0",
+    "react": "^16.2.0",
+    "react-blockies": "^1.2.2",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-web3": "^0.4.5",
+    "web3": "^0.20.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "deploy": "yarn build && firebase deploy"
+  },
+  "engines": {
+    "node": "9.8.0",
+    "npm": "5.6.0"
+  }
+}
